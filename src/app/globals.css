@@ -1,27 +1,229 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header{position: sticky; top: 0;}
+.lastbox{display: flex;}
+.rate{background-color: black;}
+h1{font-family: 'Times New Roman', Times, serif;font-size: 25px;margin-left: 600px;padding-top: 10px;}
+span{font-size: 50px;}
+.logo{position: absolute ; top: 10px;left: 720px;}
+.store{color: yellow;}
+.section{background-image: url(../app/Rectangle\ 5.png);background-position: center;background-repeat: no-repeat;background-size: cover;
+   height: 568px; display: flex;}
+.imgsec{background-image: url(../app/pngegg\ \(18\)\ 1.png);background-position: center;background-repeat: no-repeat;background-size: cover; height: 300px;
+width: 500px;margin-top: 150px;margin-left: 200px;}
+.spansec{color: yellow;}
+.hsec h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: white;font-size: 30px;
+width: 500px;margin-left: 0px;letter-spacing: 2px;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+ .hsec span{font-size: 30px;}
+.hsec{margin-top: 180px;margin-left: 100px;width: 500px;color: white;}
+button{width: 150px;height: 40px;border: 1px solid yellow;color: yellow;margin-top: 20px;}
+.box{width: 410px;height: 180px;background-color: #c0c0c035;margin-top: 30px;border-radius: 10px;}
+.bimg1{background-image: url(../app/pngegg\ \(19\)\ 1.png);background-position: center;background-repeat: no-repeat;background-size: cover; height: 150px;
+  width: 150px;margin-top: 10px;margin-left: 20px;}
+  .btext {position: absolute;left: 240px;top: 780px;color: yellow;}
+  .bpara {position: absolute;left: 240px;top:810px;color: white;}
+  .bimg2{background-image: url(../app/PikPng\ 1.png);background-position: center;background-repeat: no-repeat;background-size: cover; height: 130px;
+    width: 130px;margin-top: 20px;margin-left: 20px;}
+    .btext2 {position: absolute;left: 720px;top: 780px;color: yellow;}
+    .bpara2 {position: absolute;left: 720px;top:810px;color: white;}
+    .aside
+    {height: 240px;}
+    .btext3 {position: absolute;left: 1220px;top: 780px;color: yellow;}
+    .bpara3 {position: absolute;left: 1220px;top:810px;color: white;}
+    .bimg3{background-image: url(../app/—Pngtree—bow\ diamond\ ring\ 3d\ element_5372345\ 2.png);background-position: center;background-repeat: no-repeat;background-size: cover; 
+      height: 180px;
+      width: 180px;margin-top: 0px;margin-left: 0px;;}
+      .b1{margin-left: 60px;}
+      .b2{margin-left: 80px;}
+      .b3{margin-left: 80px;}
+      .rate{height: 550px;color: white;margin-top: 0px;}
+      .rate h1{margin-left: 100px;margin-top: 0px;font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+ .r{border: 1px solid rgba(255, 255, 255, 0.401);width: 220px;height: 350px;margin-left: 100px;margin-top: 50px;border-radius:10px ;}
+ .r1{background-image: url(../app/pngegg\ \(20\)\ 1.png);background-position: center;background-repeat: no-repeat;background-size: contain; 
+margin-left: 180px;
+}
+  .r2{background-image: url(../app/pngwing.png);background-position: center;background-repeat: no-repeat;background-size: contain;
+ 
   }
+    .r3{background-image: url(../app/pngwing\ \(1\).png);background-position: center;background-repeat: no-repeat;background-size: contain; 
+   
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+      .r4{background-image: url(../app/pngwing\ 1.png);background-position: center;background-repeat: no-repeat;background-size: contain; 
+   
+    }
+    .r p{color: white;margin-top: 280px;padding: 10px;}
+    .r p span{color: yellow;font-size: 18px;}
+    .last{background-color:black;height: 350px;}
+    .lastbox{margin-left: 180px;width: 1200px;height: 300px;color: white;background-color: rgba(128, 128, 128, 0.259);}
+    .limg{background-image: url(../app/toppng\ 1.png);background-position: center;background-repeat: no-repeat;background-size:contain; width: 220px;height: 220px;margin-top: 20px;margin-left: 20px;}
+    .silver{margin-left: 200px;margin-top: 20px;}
+   
+    .lpara{width: 700px;margin-left: 30px;margin-top: 20px;}
+    .lbtn{margin-left: 280px;margin-top: 50px;}
+    .llimg{background-image: url(../app/pngegg\ \(21\)\ 1.png);background-position: center;background-repeat: no-repeat;background-size:cover; width: 200px;height: 200px;margin-top: 20px;}
+    .line{background-color: yellow;width: 180px;height: 2px;margin-left: 230px;margin-top: 5px;}
+    .shops{height: 230px; width: 230px; margin-top: 20px;border: 1px solid grey;}
+    .sone{background-image: url(../app/earings\ \(1\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .stwo{background-image: url(../app/earings\ \(2\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .sthree{background-image: url(../app/earings\ \(3\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .sfour{background-image: url(../app/earings\ \(4\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .sfive{background-image: url(../app/earings\ \(5\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .ssix{background-image: url(../app/earings\ \(6\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .sseven{background-image: url(../app/earings\ \(7\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .seight{background-image: url(../app/earings\ \(8\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .snine{background-image: url(../app/earings\ \(9\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .sten{background-image: url(../app/earings\ \(10\).png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+    .mainshop{height: 1220px;background-color:black;margin-top: 0px;}
+    .mainshop h1{color: yellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: bold;font-size: 30px;}
+    .mainshop p{color: white;text-align: center;}
+    .shop{margin-left: 150px}
+    .genderimg{height: 300px;width: 400px;}
+    .gender{margin-left: 150px;margin-top: 50px;}
+    .gone{background-image: url(../app/Group\ 37.png);background-position: center;background-repeat: no-repeat;background-size: contain;}
+    .gtwo{background-image: url(../app/Group\ 38.png);background-position: center;background-repeat: no-repeat;background-size: contain;}
+    .gthree{background-image: url(../app/Group\ 39.png);background-position: center;background-repeat: no-repeat;background-size: contain;}
+  .ghead{margin-left: 650px;}
+  .gift{height: 400px;background-color:rgb(20, 20, 20); color: white; display: flex;}
+  .gift p {margin-top: 10px;}
+  .giftimg{background-image: url(../app/Group\ 44.png);background-position: center;background-repeat: no-repeat;background-size: contain;height: 200px;
+  width: 500px;margin-left: 200px;}
+  .giftimg h1{color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: bold;width: 500px;margin-top: 180px;
+  margin-left: 180px;}
+  .giftline{background-color: yellow;width: 120px;height: 2px;margin-left: 190px;margin-top: 5px;}
+  .storeline{background-color: yellow;width: 120px;height: 2px;margin-left: 260px;margin-top: 5px;}
+  .storehead{color: white;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-left: 250px;
+  margin-top: 70px;
+  
+  
   }
-}
+ 
+  .storepara{width: 500px;margin-left: 100px;margin-top: 20px;}
+  .storebtn{border: 1px solid yellow;width: 150px;height: 50px;margin-left: 250px;}
+  .footer{height: 350px;background-color: black; display: flex; gap:40px;}
+  .fone{height: 300px;width: 300px;margin-left: 100px;margin-top: 40px;margin-left: 150px;}
+  .ftwo{height: 300px;width: 300px;margin-top: 40px;}
+  .fthree{height: 300px;width: 300px;margin-top: 45px;}
+  .ffour{height: 300px;width: 300px;margin-top: 45px;}
+  .fone h1{color: yellow;margin-left: 0px;margin-top: 20px;}
+  .fone p{color: white;margin-top: 10px;}
+  .ftwo h1{color: yellow;margin-left: 0px;margin-top: 20px;}
+  .ftwo p{color: white;margin-top: 10px;}
+  .fthree h1{color: yellow;margin-left: 0px;margin-top: 20px;}
+  .fthree p{color: white;margin-top: 10px;}
+  .ffour h1{color: yellow;margin-left: 0px;margin-top: 20px;}
+  .ffour p{color: white;margin-top: 10px;}
+  .mail{background-image: url(../app/mails.png);background-position: center;background-repeat: no-repeat;background-size: contain;height: 20px;width: 20px;
+  position: absolute;left: 770px;top: 3615px;
+  
+  
+  }
+  .call{background-image: url(../app/call.png);background-position: center;background-repeat: no-repeat;background-size: contain;height: 20px;width: 20px;
+    position: absolute;left: 770px;top: 3650px;
+    
+    
+    }
+    .chat{background-image: url(../app/chat.png);background-position: center;background-repeat: no-repeat;background-size: contain;height: 20px;width: 20px;
+      position: absolute;left: 770px;top: 3685px;
+      
+      
+      }
+      .fb{background-image: url(../app/four-removebg-preview.png);background-position: center;background-repeat: no-repeat;background-size: contain;height:150px;width: 300px;
+        position: absolute;left: 1085px;top: 3600px;}
+        .end{background-color:black;height: 100px;width: 100%;margin-top: 0px;}
+      
+        .end p{color: white;text-align: center;
+        }
+        .topp{margin-top: 18px;}
+        @media screen and (max-width: 1368px) {.bpara3{left: 1170px;}
+        .bpara2{left: 680px;}
+        .bpara{left: 220px;}
+        .r1{margin-left: 80px;}
+        .lastbox{margin-left: 0px;width: 100%;padding-left: 100px; display: flex;}
+        .shop{margin-left: 70px;}
+        .gender{margin-left: 70px;}
+        .fb{left: 1000px;}
+        .mail,.call,.chat{left: 750px;}
+      
+       
+          
+        }
+        /* @media screen and (min-width: 320px)and (max-width: 430px)
+        {.header{width: 1000%;}
+        .section{width: 1000%;}
+        .aside{width: 1000%;}
+        .rate{width: 1000%;}
+      .last{width: 1000%;}
+   .box{width: 300px;}
+   .b1{margin-left: 100px;}
+   .btext{margin-left: 80px;margin-top: 50px;}
+   .bpara{display: none;}
+   .bpara2{display: none;}
+   .bpara3{display: none;}
+   .btext2{margin-left: 0px;margin-top: 50px;left: 650px;}
+   .btext3{left: 1050px;margin-top: 50px;}
+      .mainshop{width: 1000%;}
+      .mainshop p{text-align: left;margin-left: 500px;}
+      .end{width: 1000%;}
+      .footer{width: 1000%;}
+      .gift{width: 1000%;}
+      .fone{margin-left: 50px;}
+      .mail,.call,.chat{left: 700px;}
+      .end{margin-left: 0px;}
+      .end p{text-align: left;margin-left: 500px;}
+    
+      } */
+       .header{color: white; background-color: black;height: 170px;}
+      @media screen and (min-width: 370px)and (max-width: 1490px){
+        .header{width: 1500px;}
+        .section{width: 1500px;}
+        .mainshop{width: 1500px;}
+        .aside{width: 1500px;}
+        .rate{width: 1500px;}
+        .end{width: 1500px;}
+        .footer{width: 1500px;}
+        .gift{width: 1500px}
+      .last{width: 1500px;}
+      .lastbox{padding-left: 150px;}
+      .bpara2{width:400px;margin-top: 20px;margin-left: 30px;}
+      .bpara{margin-top: 10px;margin-left: 20px;;width: 200px;}
+      .bpara3{width: 250px;margin-left: 30px;margin-top: 35px;}
+      .r1{margin-left: 150px;}
+      .shop{margin-left: 150px;}
+      .gender{margin-left: 150px;}
+      .fb{margin-left: 100px;}
+      }
+      @media screen and (min-width: 300px)and (max-width: 370px){
+        .header{width: 1500px;}
+        .header ul{margin-left: 150px;}
+        .hsec{margin-left: 30px;}
+        .section{width: 1500px;}
+        .mainshop{width: 1500px;}
+        .aside{width: 1500px;}
+ 
+     
+        .rate{width: 1500px;}
+        .end{width: 1500px;}
+        .footer{width: 1500px;}
+        .fone{margin-left: 200px;}
+        .ffour{display: none;}
+        .gift{width: 1500px}
+      .last{width: 1500px;}
+      .lastbox{padding-left: 150px;}
+      .bpara2{width:400px;margin-top: 20px;margin-left: 30px;}
+      .bpara{margin-top: 10px;margin-left: 20px;;width: 200px;}
+      .bpara3{width: 250px;margin-left: 30px;margin-top: 35px;}
+      .r1{margin-left: 150px;}
+      .shop{margin-left: 150px;}
+      .gender{margin-left: 150px;}
+      .fb{margin-left: 100px;}
+      .end p{margin-left: 0px;text-align: center;}
+      .lastbox{padding-left: 80px;}
+      .shop{margin-left: 70px;}
+      .gender{margin-left: 80px;}
+      .giftimg{margin-left: 150px;}
+ 
+      }
+      
